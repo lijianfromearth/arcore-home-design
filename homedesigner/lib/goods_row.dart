@@ -15,7 +15,7 @@ class goods_row extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-          Text(title,style: TextStyle(fontSize: 15),),
+          Text(title,style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold),),
           SizedBox(height: 20,),
           Container(
           height: 200,
@@ -24,7 +24,6 @@ class goods_row extends StatelessWidget {
           itemCount: list.length*2,
           itemBuilder: _listitemBuilder,
                  ),
-
           ),
       ],
     );
@@ -72,6 +71,7 @@ class goods_row extends StatelessWidget {
 
 
 class post {
+  final String goodid;
   final String brand;
   final String name;
   final double price;
@@ -79,6 +79,7 @@ class post {
   final String model;
   //const post(this.brand,this.name,this.price,this.imgurl);
   const post(
+    this.goodid,
     this.brand,
     this.name,
     this.price,

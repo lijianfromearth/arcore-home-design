@@ -23,7 +23,6 @@ public class ARActivity extends AppCompatActivity {
         arFragment.setOnTapArPlaneListener(((hitResult, plane, motionEvent) ->{
 
             Anchor anchor = hitResult.createAnchor();
-
             ModelRenderable.builder()
                            .setSource(this, Uri.parse(MainActivity.model+".sfb"))
                            .build()
@@ -37,7 +36,6 @@ public class ARActivity extends AppCompatActivity {
         }));
     }
     private void addModelToScene(Anchor anchor, ModelRenderable modelRenderable) {
-
         AnchorNode anchorNode = new AnchorNode(anchor);
         TransformableNode transformableNode = new TransformableNode(arFragment.getTransformationSystem());
         transformableNode.setParent(anchorNode);

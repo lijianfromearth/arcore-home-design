@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/marFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:visibility="visible" >
+        <fragment android:name="com.google.ar.sceneform.ux.ArFragment"
+            android:id="@+id/marFragment_ar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+       <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/marFragment_button"
+        android:alpha="0.5"
+        android:text="商品"/>
+    </FrameLayout>
+
+    <FrameLayout
+    android:id="@+id/marFragment_list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="100dp"
+    android:background="@drawable/background"
+    android:visibility="invisible" >
+        <LinearLayout
+            android:layout_width = "300dp"
+            android:layout_height="550dp"
+            android:orientation="vertical">
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" ></View>
+            <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:id="@+id/mar_goodslist_chair"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/chair"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:text="单人座椅"
+                android:textColor="#111"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" ></View>
+        <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:id="@+id/mar_goodslist_table"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/table"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="黑色茶几"
+                    android:textColor="#111"/>
+        </LinearLayout>
+        <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" ></View>
+        <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:id="@+id/mar_goodslist_TV"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tv"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="4K电视"
+                    android:textColor="#111"/>
+            </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" ></View>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:id="@+id/mar_goodslist_sofa"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/sofa"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="沙发"
+                    android:textColor="#111"/>
+            </LinearLayout>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" ></View>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mar_goodslist_return"
+                android:layout_marginLeft="120dp"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

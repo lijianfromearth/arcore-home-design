@@ -6,7 +6,7 @@ import io.flutter.app.FlutterActivity;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugins.GeneratedPluginRegistrant;
-
+import java.util.Map;
 public class MainActivity extends FlutterActivity {
     static String model = "sofa";
     String success = "ar success";
@@ -19,8 +19,10 @@ public class MainActivity extends FlutterActivity {
               @Override
               public void onMethodCall(MethodCall call, MethodChannel.Result result) {
                   model=call.method ;
-                  startar();
-                result.success(success);
+                  Map partm = (Map)call.arguments;
+                  if((int)partm.get("ar")==1){startMar();}
+                  else startar();
+                result.success(partm.get("ar"));
               }
             }
     );
@@ -28,5 +30,8 @@ public class MainActivity extends FlutterActivity {
 
     private void startar() {
         startActivity(new Intent(this,ARActivity.class));
+    }
+    private void startMar() {
+        startActivity(new Intent(this,MARActivity.class));
     }
 }

@@ -104,3 +104,12 @@ sceneform.asset('sampledata/sofa.fbx',
         'default',
         'sampledata/sofa.sfa',
         'src/main/assets/sofa')
+sceneform.asset('sampledata/TV.fbx',
+        'default',
+        'sampledata/TV.sfa',
+        'src/main/assets/tv')
+
+sceneform.asset('sampledata/table.fbx',
+        'default',
+        'sampledata/table.sfa',
+        'src/main/assets/table')
