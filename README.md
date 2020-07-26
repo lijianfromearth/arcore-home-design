@@ -12,8 +12,8 @@ b站视频介绍 - https://www.bilibili.com/video/BV1sg4y167wQ
 
 **图片**
 
-<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/show1.gif" width="300" height="500" alt="首页" align=center>
-<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/show2.gif" width="300" height="500" alt="首页" align=center>
-<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/z.png" width="300" height="500" alt="首页" align=center>
-<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/s.png" width="300" height="500" alt="首页" align=center>
+<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/show1.gif" width="300" height="500"  align=center>
+<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/show2.gif" width="300" height="500"  align=center>
+<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/z.png" width="300" height="500"  align=center>
+<img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/s.png" width="300" height="500"  align=center>
 
