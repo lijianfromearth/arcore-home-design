@@ -7,9 +7,11 @@
 - 购物计划，一个将购物方案用文字图片和AR展示的功能，灵感来自宜家的体验式营销
 
 论文 - https://github.com/LIJIANcoder97/arcore-home-design/blob/master/paper/paper.pdf
+
 b站视频介绍 - https://www.bilibili.com/video/BV1sg4y167wQ
 
- **图片**
+**图片**
+
 <img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/show1.gif" width="300" height="500" alt="首页" align=center>
 <img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/show2.gif" width="300" height="500" alt="首页" align=center>
 <img src="https://github.com/LIJIANcoder97/arcore-home-design/blob/master/imge/z.png" width="300" height="500" alt="首页" align=center>
